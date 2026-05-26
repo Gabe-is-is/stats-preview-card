@@ -3,7 +3,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 2rem;
 }
 
 main {
@@ -97,9 +98,7 @@ h4 {
   }
 }
 
-/* DESKTOP */
-
-@media (min-width: 64rem) {
+@media (min-width: 90rem) {
   main {
     max-width: 70.5rem;
     width: 100%;
